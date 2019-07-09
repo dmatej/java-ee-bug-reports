@@ -16,7 +16,7 @@
       <dependency>
         <groupId>org.jboss.arquillian</groupId>
         <artifactId>arquillian-bom</artifactId>
-        <version>1.2.0.Final</version>
+        <version>1.4.1.Final</version>
         <scope>import</scope>
         <type>pom</type>
       </dependency>
@@ -48,7 +48,7 @@
     </dependency>
     <dependency>
       <groupId>fish.payara.arquillian</groupId>
-      <artifactId>arquillian-payara-server-4-embedded</artifactId>
+      <artifactId>arquillian-payara-server-embedded</artifactId>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
@@ -56,7 +56,7 @@
     </dependency>
     <dependency>
      <groupId>org.hamcrest</groupId>
-      <artifactId>hamcrest-library</artifactId>
+      <artifactId>hamcrest</artifactId>
     </dependency>
 
     <dependency>
